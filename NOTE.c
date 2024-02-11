@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void createtext(char name[], char inside[]) //SIFRELENMIS METNI YENI TEXT DOSYASINA YAZMAK ICIN FONKSIYON
+void createtext(char name[], char inside[]) //TXT DOSYASI OLUSTURUP YAZDIGINIZ NOTLARI KAYDETMEK ICIN FONKSIYON
 {
 	
 	FILE *note = fopen(name, "w");
